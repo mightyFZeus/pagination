@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.main-div{
+  background-color: aqua;
+  margin-bottom: 2em;
+  padding: 1em 0em;
+  border: 2px solid black
+}
+
+.paginationBtns{
+  width:80%;
+  height:40px;
+  list-style: none;
+  display: flex;
+  justify-content: center
+}
+
+.paginationBtns a{
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border:1px solid aqua;
+  color:aqua;
+  cursor: pointer;
+}
+
+.paginationBtns a:hover{
+  color: white;
+  background-color: aqua
+}
+
+.paginationActive a{
+  color: white;
+  background-color: aqua
+}
